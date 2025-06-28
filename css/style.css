@@ -6,3 +6,9 @@ header {
     height: 51px;
     background-color: #212121;
 }
+
+.menu {
+    padding: 0 70px;
+    margin: 0;
+    list-style-type: none; /*убираем точки из неопределенного списка (ul) */
+}
