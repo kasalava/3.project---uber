@@ -2,3 +2,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
+header {
+    height: 51px;
+    background-color: #212121;
+}
