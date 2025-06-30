@@ -24,4 +24,5 @@ header {
 
 .menu .menu_item {
     border-right: 2px dotted black; /* точечная граница */
+    padding-right: 11px;
 }
