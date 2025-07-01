@@ -36,7 +36,7 @@ nav {
 .subheader .subheader_logo {
   display: block;
   margin-top: 16px;
-  max-width: 100%;
+  cc
 }
 
 .subheader .subheader_official {
@@ -45,7 +45,7 @@ nav {
   color: #ffffff;
   opacity: 0.5;
   font-size: 13px;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .subheader .subheader_call {
@@ -53,7 +53,7 @@ nav {
   color: #ffffff;
   font-size: 12px;
   font-weight: 300;
-  margin-top: 23px;
+  margin-top: 19px;
   text-align: right;
 }
 
@@ -66,4 +66,20 @@ nav {
   text-transform: uppercase;
   text-align: right;
   line-height: 12px;
+}
+
+.subheader .subheader_btn {
+  /* Кнопка */
+margin-top: 19px;
+width: 172px;
+height: 46px;
+box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+border: none;
+border-radius: 4px;
+background-image: linear-gradient(to top, #1EACC7 0%, #4CE2FF 100%);
+text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+color: #ffffff;
+font-size: 14px;
+font-weight: 400;
+text-transform: uppercase;
 }
