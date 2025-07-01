@@ -26,3 +26,9 @@ nav {
     border-right: 2px dotted black; /* точечная граница */
     padding-right: 11px;
 }
+
+.subheader {
+  /* Нижняя часть шапки */
+  background: rgba(0,0,0, .6) /* 60 проц прозрачности */
+  height: 84px;
+ }
