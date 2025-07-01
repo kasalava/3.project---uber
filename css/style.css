@@ -23,12 +23,47 @@ nav {
 }
 
 .menu .menu_item {
-    border-right: 2px dotted black; /* точечная граница */
-    padding-right: 11px;
+  border-right: 2px dotted black; /* точечная граница */
+  padding-right: 11px;
 }
 
 .subheader {
   /* Нижняя часть шапки */
-  background: rgba(0,0,0, .6); /* 60 проц прозрачности */
+  background: rgba(0, 0, 0, 0.6); /* 60 проц прозрачности */
   height: 84px;
- }
+}
+
+.subheader .subheader_logo {
+  display: block;
+  margin-top: 16px;
+  max-width: 100%;
+}
+
+.subheader .subheader_official {
+  /* Официальный партнер Uber в Москве */
+  margin-top: 6px;
+  color: #ffffff;
+  opacity: 0.5;
+  font-size: 13px;
+  font-weight: 200;
+}
+
+.subheader .subheader_call {
+  /* Звоните нам ежедневно */
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 23px;
+  text-align: right;
+}
+
+.subheader .subheader_phone {
+  display: block;
+  color: #ffffff;
+  margin-top: 8px;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: right;
+  line-height: 12px;
+}
