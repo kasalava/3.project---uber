@@ -81,3 +81,9 @@ font-size: 14px;
 font-weight: 400;
 text-transform: uppercase;
 }
+
+.promo {
+  min-height: 800px;
+  background: url('//img/uber_bg.png');
+
+}
