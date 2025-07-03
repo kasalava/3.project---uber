@@ -36,11 +36,9 @@ nav {
 .subheader .subheader_logo {
   display: block;
   margin-top: 16px;
-  cc
-}
+  }
 
 .subheader .subheader_official {
-  /* Официальный партнер Uber в Москве */
   margin-top: 6px;
   color: #ffffff;
   opacity: 0.5;
@@ -61,7 +59,7 @@ nav {
   display: block;
   color: #ffffff;
   margin-top: 8px;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 400;
   text-transform: uppercase;
   text-align: right;
