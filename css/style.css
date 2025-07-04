@@ -2,8 +2,8 @@
   font-family: "Roboto", sans-serif;
 }
 
-header {
-  position: relative;
+header { 
+  position: relative; 
 }
 
 nav {
@@ -35,8 +35,9 @@ nav {
   /* Нижняя часть шапки */
   background: rgba(0, 0, 0, 0.6); /* 60 проц прозрачности */
   height: 84px;
+  z-index: 2;
   position: absolute;
-  width: 100%;
+  width: 100%; 
 }
 
 .subheader .subheader_logo {
@@ -92,6 +93,8 @@ text-transform: uppercase;
   min-height: 800px;
   background: url('../img/uber_bg.png') center center/cover no-repeat;
   padding: 100px 0 135px 0;
+ 
+
 }
 
 .promo .promo_header {
