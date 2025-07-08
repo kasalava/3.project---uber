@@ -1,0 +1,119 @@
+@charset "UTF-8";
+* {
+  font-family: "Roboto", sans-serif; }
+
+header {
+  position: relative; }
+
+nav {
+  height: 51px;
+  background-color: #212121; }
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none;
+  /*убираем точки из неопределенного списка (ul) */ }
+  .menu .menu_link {
+    /* Главная                 Со своим автомобилем */
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 15px; }
+  .menu .menu_item {
+    border-right: 2px dotted black;
+    /* точечная граница */
+    padding-right: 11px; }
+
+.subheader {
+  /* Нижняя часть шапки */
+  background: rgba(0, 0, 0, 0.6);
+  /* 60 проц прозрачности */
+  height: 84px;
+  z-index: 2;
+  position: absolute;
+  width: 100%; }
+  .subheader .subheader_logo {
+    display: block;
+    margin-top: 16px; }
+  .subheader .subheader_official {
+    margin-top: 6px;
+    color: #ffffff;
+    opacity: 0.5;
+    font-size: 13px;
+    font-weight: 400; }
+  .subheader .subheader_call {
+    /* Звоните нам ежедневно */
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 19px;
+    text-align: right; }
+  .subheader .subheader_phone {
+    display: block;
+    color: #ffffff;
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: right;
+    line-height: 12px; }
+  .subheader .subheader_btn {
+    /* Кнопка */
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1EACC7 0%, #4CE2FF 100%);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase; }
+
+.promo {
+  min-height: 800px;
+  background: url("../img/uber_bg.png") center center/cover no-repeat;
+  padding: 100px 0 135px 0; }
+  .promo .promo_header {
+    /* КОМПАНИЯ UBER PARTNERS! ПРИГЛАШАЕМ ВОДИТЕЛЕЙ! НА СВОЕМ АВТО! */
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 60px;
+    margin: 0;
+    text-align: center; }
+  .promo .promo_subheader {
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 22px;
+    text-align: center; }
+  .promo .promo_descr {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 23px; }
+  .promo .promo_btn {
+    /* Кнопка */
+    display: block;
+    margin: 118px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase; }

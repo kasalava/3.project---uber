@@ -12,8 +12,12 @@ nav {
 }
 
 .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 13px 70px;
   margin: 0;
   list-style-type: none; /*убираем точки из неопределенного списка (ul) */
@@ -78,9 +82,11 @@ nav {
 margin-top: 19px;
 width: 172px;
 height: 46px;
-box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+-webkit-box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+        box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
 border: none;
 border-radius: 4px;
+background-image: -webkit-gradient(linear, left bottom, left top, from(#1EACC7), to(#4CE2FF));
 background-image: linear-gradient(to top, #1EACC7 0%, #4CE2FF 100%);
 text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
 color: #ffffff;
@@ -134,8 +140,10 @@ display: block;
 margin: 118px auto 0 auto;
 width: 259px;
 height: 63px;
+background: -webkit-gradient(linear, left bottom, left top, from(#1EACC7), to(#4CE2FF));
 background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
-box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+-webkit-box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+        box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
 border-radius: 4px;
 border: none;
 color: #FFFFFF;
@@ -143,3 +151,4 @@ font-size: 18px;
 font-weight: 400;
 text-transform: uppercase;
 }
+/*# sourceMappingURL=style.css.map */
