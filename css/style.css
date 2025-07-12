@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   font-family: "Roboto", sans-serif;
 }
@@ -239,4 +240,22 @@ nav {
   width: 320px;
   height: 280px;
   margin: 0 auto;
+}
+.mobile_item_1 {
+  background: url("../icons/mobile/Карточка 1.png");
+}
+.mobile_item_2 {
+  background: url("../icons/mobile/Карточка 2.png");
+}
+.mobile_item_3 {
+  background: url("../icons/mobile/Карточка 3.png");
+}
+.mobile_item_4 {
+  background: url("../icons/mobile/Карточка 4.png");
+}
+.mobile_item_5 {
+  background: url("../icons/mobile/Карточка 5.png");
+}
+.mobile_item_6 {
+  background: url("../icons/mobile/Карточка 6.png");
 }/*# sourceMappingURL=style.css.map */
