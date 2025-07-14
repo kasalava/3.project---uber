@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   font-family: "Roboto", sans-serif;
 }
@@ -233,11 +234,62 @@ nav {
 .mobile {
   min-height: 864px;
   padding: 48px 0 79px 0;
-  background: url("../img/mobile_bg.png");
+  background: url("../img/mobile_bg.png") center center/cover no-repeat;
+}
+.mobile .row {
+  margin-top: 32px;
 }
 .mobile_item {
+  position: relative;
   width: 320px;
   height: 280px;
   margin: 0 auto;
-}/*# sourceMappingURL=style.css.map */
+  margin-bottom: 19px;
+  padding-top: 92px;
+}
+.mobile_item_1 {
+  background: url("../icons/mobile/карточка 1.png") center center/cover no-repeat;
+}
+.mobile_item_2 {
+  background: url("../icons/mobile/карточка 2.png") center center/cover no-repeat;
+}
+.mobile_item_3 {
+  background: url("../icons/mobile/карточка 3.png") center center/cover no-repeat;
+}
+.mobile_item_4 {
+  background: url("../icons/mobile/карточка 4.png") center center/cover no-repeat;
+}
+.mobile_item_5 {
+  background: url("../icons/mobile/карточка 5.png") center center/cover no-repeat;
+}
+.mobile_item_6 {
+  background: url("../icons/mobile/карточка 6.png") center center/cover no-repeat;
+}
+.mobile_item_subtitle {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.mobile_item_plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 26px;
+  height: 26px;
+  background-color: #000000;
+  margin: 0 auto;
+  border-radius: 100%;
+  cursor: pointer;
+}
 
+.car {
+  background: url("../img/car/Темная подложка.png") center center/cover no-repeat;
+  min-height: 502px;
+}/*# sourceMappingURL=style.css.map */

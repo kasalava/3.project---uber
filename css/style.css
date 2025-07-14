@@ -234,7 +234,7 @@ nav {
 .mobile {
   min-height: 864px;
   padding: 48px 0 79px 0;
-  background: url("../img/bg/mobile_app.png") center center/cover no-repeat;
+  background: url("../img/mobile_bg.png") center center/cover no-repeat;
 }
 .mobile .row {
   margin-top: 32px;
@@ -289,3 +289,8 @@ nav {
   cursor: pointer;
   padding: 6px;
 }/*# sourceMappingURL=style.css.map */
+
+.car {
+  background: url("../img/car/Темная подложка.png") center center/cover no-repeat;
+  min-height: 502px;
+}

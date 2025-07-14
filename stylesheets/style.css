@@ -1,21 +1,21 @@
 /*
-Error: Inconsistent indentation: 3 spaces were used for indentation, but the rest of the document was indented using 2 spaces.
-        on line 134 of D:/projects/udemy/3.project---uber/sass/style.sass
+Error: Inconsistent indentation: "\t\t\t        " was used for indentation, but the rest of the document was indented using 1 tab.
+        on line 231 of D:/projects/udemy/3.project---uber/sass/style.sass
 
-129:     color: #FFFFFF
-130:     font-size: 18px
-131:     font-weight: 400
-132:     text-transform: uppercase
-133: 
-134:    .reasons
-135: 	padding: 71px 0 65px 0
-136: 
-137: .label
-138: 	position: relative
-139: 	margin: 0 auto
+226: 					background: url('../icons/mobile/карточка 5.png') center (center / cover) no-repeat
+227: 			&_6
+228: 					background: url('../icons/mobile/карточка 6.png') center (center / cover) no-repeat
+229: 			&_subtitle
+230: 					color: #ffffff
+231: 			        font-size: 24px
+232: 			        font-weight: 400
+233: 			        line-height: 31px
+234: 			        text-transform: uppercase
+235: 			        text-align: center
+236: 			&_plus
 
 Backtrace:
-D:/projects/udemy/3.project---uber/sass/style.sass:134
+D:/projects/udemy/3.project---uber/sass/style.sass:231
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.25/lib/sass/engine.rb:489:in `block in tabulate'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.25/lib/sass/engine.rb:447:in `each'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.25/lib/sass/engine.rb:447:in `each_with_index'
@@ -41,4 +41,4 @@ C:/Program Files (x86)/Koala/bin/compass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Inconsistent indentation: 3 spaces were used for indentation, but the rest of the document was indented using 2 spaces.\A         on line 134 of D:/projects/udemy/3.project---uber/sass/style.sass\A \A 129:     color: #FFFFFF\A 130:     font-size: 18px\A 131:     font-weight: 400\A 132:     text-transform: uppercase\A 133: \A 134:    .reasons\A 135: 	padding: 71px 0 65px 0\A 136: \A 137: .label\A 138: 	position: relative\A 139: 	margin: 0 auto"; }
+  content: "Error: Inconsistent indentation: \"\t\t\t        \" was used for indentation, but the rest of the document was indented using 1 tab.\A         on line 231 of D:/projects/udemy/3.project---uber/sass/style.sass\A \A 226: 					background: url('../icons/mobile/карточка 5.png') center (center / cover) no-repeat\A 227: 			&_6\A 228: 					background: url('../icons/mobile/карточка 6.png') center (center / cover) no-repeat\A 229: 			&_subtitle\A 230: 					color: #ffffff\A 231: 			        font-size: 24px\A 232: 			        font-weight: 400\A 233: 			        line-height: 31px\A 234: 			        text-transform: uppercase\A 235: 			        text-align: center\A 236: 			&_plus"; }
