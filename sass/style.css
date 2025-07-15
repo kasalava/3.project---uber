@@ -291,5 +291,13 @@ nav {
 
 .car {
   background: url("../img/car/Темная подложка.png") center center/cover no-repeat;
-  min-height: 502px;
+  position: relative;
+  min-height: 895px;
+  padding: 57px 0 138px 0;
+}
+.car_img {
+  position: relative;
+  display: block;
+  margin: 56px auto 0 auto;
+  z-index: 2;
 }/*# sourceMappingURL=style.css.map */
