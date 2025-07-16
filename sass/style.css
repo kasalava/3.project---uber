@@ -288,6 +288,13 @@ nav {
   border-radius: 100%;
   cursor: pointer;
 }
+.mobile_item_plus:before {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 2px;
+  background-color: #1eacc7;
+}
 
 .car {
   background: url("../img/car/Темная подложка.png") center center/cover no-repeat;
