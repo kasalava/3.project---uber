@@ -295,6 +295,18 @@ nav {
   height: 2px;
   background-color: #1eacc7;
 }
+.mobile_item_plus:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 2px;
+  height: 14px;
+  background-color: #1eacc7;
+}
+.mobile_item_plus:hover:before, .mobile_item_plus:hover:after {
+  transition: 2s all;
+  background-color: #ff5656;
+}
 
 .car {
   background: url("../img/car/Темная подложка.png") center center/cover no-repeat;
