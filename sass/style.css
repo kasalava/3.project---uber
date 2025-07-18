@@ -350,5 +350,10 @@ nav {
   margin: 33px 0;
 }
 .rule_blocknmb {
-  margin-buttom: 0px;
+  margin-bottom: 0px;
+}
+.rule_title {
+  font-size: 22px;
+  font-weight: 400;
+  color: #1ca8c3;
 }/*# sourceMappingURL=style.css.map */
