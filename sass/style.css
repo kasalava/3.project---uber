@@ -359,4 +359,19 @@ nav {
 }
 .rule_list {
   list-style-type: none;
+  padding-left: 50px;
+  margin-top: 22px;
+}
+.rule_list li {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.rule_list li:before {
+  content: "";
+  display: block;
+  width: 21px;
+  height: 20px;
+  background: url("../icons/rule/check_blue.png");
 }/*# sourceMappingURL=style.css.map */
