@@ -374,9 +374,21 @@ nav {
   display: block;
   position: absolute;
   left: -32px;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 3px;
   width: 21px;
   height: 20px;
   background: url("../icons/rule/check_blue.png") center center/cover no-repeat;
+}
+.rule_descr {
+  margin-top: 25px;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #1ca8c3;
+}
+.rule .warning .rule_title {
+  color: #ff5656;
+}
+.rule .warning .rule_list li:before {
+  background: url("../icons/rule/check_red.png") center center/cover no-repeat;
 }/*# sourceMappingURL=style.css.map */
