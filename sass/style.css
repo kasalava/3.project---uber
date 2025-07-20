@@ -363,6 +363,7 @@ nav {
   margin-top: 22px;
 }
 .rule_list li {
+  position: relative;
   font-size: 17px;
   font-weight: 300;
   line-height: 24px;
@@ -371,7 +372,11 @@ nav {
 .rule_list li:before {
   content: "";
   display: block;
+  position: absolute;
+  left: -32px;
+  top: 50%;
+  transform: translateY(-50%);
   width: 21px;
   height: 20px;
-  background: url("../icons/rule/check_blue.png");
+  background: url("../icons/rule/check_blue.png") center center/cover no-repeat;
 }/*# sourceMappingURL=style.css.map */
