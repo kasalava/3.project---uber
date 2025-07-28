@@ -36,6 +36,9 @@ nav {
   border-right: 2px dotted black;
   padding-right: 28px;
 }
+.menu_item:last-child {
+  border-right: none;
+}
 
 .subheader {
   position: absolute;
